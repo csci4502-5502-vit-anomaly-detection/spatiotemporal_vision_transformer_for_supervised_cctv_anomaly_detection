@@ -1,0 +1,30 @@
+Pull all files from dropbox, except for:
+    Training-Normal-Videos-Part-2.zip
+    Temporal_Anomaly_Annotation_for_Testing_Videos.txt
+    Normal_Videos_for_Event_Recognition.zip
+
+
+https://www.dropbox.com/scl/fo/2aczdnx37hxvcfdo4rq4q/AOjRokSTaiKxXmgUyqdcI6k?dl=0&e=1&rlkey=5bg7mxxbq46t7aujfch46dlvz
+
+The end goal is to have the following structure:
+
+ucf_crime/
+├─ Test/
+│  ├─ Abuse/
+│  │  ├─ Abuse001_x264.mp4
+│  │  ├─ Abuse002_x264.mp4
+│  ├─ Arrest/
+│  ├─ .../
+├─ Train/
+│  ├─ Abuse/
+│  │  ├─ Abuse001_x264.mp4
+│  │  ├─ Abuse002_x264.mp4/
+│  ├─ Arrest/
+│  ├─ .../
+
+
+IMPORTANT: format for normal videos is different then anomaly videos.
+Normal videos are stored like Normal_Videos_001_x264.mp4 and RoadAccidents videos are stored as RoadAccidents001_x264.mp4
+
+
+For standardization, we will limit each class to ~50 videos, and split them off into a train/val/test set accordingly
