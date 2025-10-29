@@ -28,3 +28,8 @@ Normal videos are stored like Normal_Videos_001_x264.mp4 and RoadAccidents video
 
 
 For standardization, we will limit each class to ~50 videos, and split them off into a train/val/test set accordingly
+
+
+dataset_maker processes the original dropbox data into a data directory with mp4 format videos
+dataset_pruner does a very rudimentary downsampling of unbalanced classes by terminating video samples based on average class counts
+dataset_frame_extractor samples videos into frames for training
