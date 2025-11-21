@@ -1,0 +1,20 @@
+{
+  "total_frames": 195,
+  "crime_type_distribution": {
+    "Abuse": 15,
+    "Arrest": 15,
+    "Arson": 15,
+    "Assault": 15,
+    "Burglary": 15,
+    "Explosion": 15,
+    "Fighting": 15,
+    "RoadAccidents": 15,
+    "Robbery": 15,
+    "Shooting": 15,
+    "Shoplifting": 15,
+    "Stealing": 15,
+    "Vandalism": 15
+  },
+  "extraction_timestamp": "2025-11-21T00:46:40.807548",
+  "confidence_threshold": 0.7
+}
